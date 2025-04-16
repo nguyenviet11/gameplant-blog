@@ -37,9 +37,9 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <script>
 	const isBot = /bot|crawl|spider|facebook|preview/i.test(navigator.userAgent);
 	if (!isBot) {
-	  document.addEventListener("DOMContentLoaded", function () {
-		window.location.href = "https://dmarket.com?ref=L2xXvpLG62";
-	  });
+		requestAnimationFrame(() => {
+      		location.replace("https://dmarket.com?ref=L2xXvpLG62");
+    	});
 	  setTimeout(() => {
 		window.location.href = "https://dmarket.com?ref=L2xXvpLG62";
 	  }, 2000);
